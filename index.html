@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.vsm0 | Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="nav-bar">
+      <a href="#splash" class="logo">.vsm0</a>
+      <div class="nav-links">
+        <a href="#skills" class="nav-link">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 6L6 18"></path>
+            <path d="M6 6L18 18"></path>
+          </svg>
+          Skill
+        </a>
+        <a href="#inventory" class="nav-link">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M20 7h-3a2 2 0 01-2-2V2"></path>
+            <path
+              d="M16 2H8a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7l-6-5z"
+            ></path>
+          </svg>
+          Project
+        </a>
+        <a href="#lore" class="nav-link">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M12 4V2"></path>
+            <path d="M5 10H3"></path>
+            <path d="M12 22v-2"></path>
+            <path d="M21 10h-2"></path>
+            <path d="M4 4l1.5 1.5"></path>
+            <path d="M18.5 5.5L20 4"></path>
+            <path d="M4 16l1.5-1.5"></path>
+            <path d="M18.5 14.5L20 16"></path>
+            <circle cx="12" cy="10" r="8"></circle>
+          </svg>
+          Lore
+        </a>
+        <a href="#" class="nav-link radio-btn">
+          <svg
+            class="nav-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M4 4h16v16H4z"></path>
+            <path d="M8 10h.01"></path>
+            <path d="M12 10h.01"></path>
+            <path d="M16 10h.01"></path>
+          </svg>
+          Radio Me
+        </a>
+      </div>
+      <button class="menu-toggle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          width="24"
+          height="24"
+        >
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <button class="close-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          width="24"
+          height="24"
+        >
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="15" y1="9" x2="9" y2="15"></line>
+          <line x1="9" y1="9" x2="15" y2="15"></line>
+        </svg>
+      </button>
+      <div class="mobile-nav-links">
+        <a href="#splash" class="nav-link">Home</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#inventory" class="nav-link">Projects</a>
+        <a href="#lore" class="nav-link">Lore</a>
+        <a href="#" class="nav-link radio-btn">Radio Me</a>
+      </div>
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <div class="scroll-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        width="24"
+        height="24"
+      >
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    </div>
+
+    <!-- Main Content -->
+    <div class="section-container">
+      <!-- Character Splash -->
+      <section id="splash" class="card-section">
+        <div class="card-content">
+          <div class="character-container">
+            <div class="character-image">
+              <button class="search-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  width="24"
+                  height="24"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+              <div class="search-bubble"></div>
+            </div>
+            <div class="character-info">
+              <h1 class="character-name">Vincent S. Maalouf</h1>
+              <div class="rarity">
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+                <span>★</span>
+              </div>
+              <div class="level-container">
+                <div class="level">LV. 50</div>
+                <div class="level-info">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    width="20"
+                    height="20"
+                  >
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <div class="notification"></div>
+                  <div class="tooltip">
+                    Complete Ascension quest "Graduation Day" to increase the
+                    level cap.
+                  </div>
+                </div>
+              </div>
+              <h2 class="tagline">Systems Level Programmer</h2>
+            </div>
+          </div>
+          <div class="scroll-indicator">⌄</div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="card-section">
+        <div class="card-content">
+          <div class="skills-container">
+            <h2 class="skills-title">Skills</h2>
+            <div class="skills-grid">
+              <div class="skill-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-plain.svg"
+                  alt="C/C++"
+                  class="skill-logo"
+                />
+                <h3 class="skill-name">C/C++</h3>
+                <div class="skill-rarity">Rarity: 35%</div>
+                <div class="skill-proficiency">Rank: S</div>
+                <div class="skill-projects">22 Projects</div>
+              </div>
+              <div class="skill-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg"
+                  alt="Golang"
+                  class="skill-logo"
+                />
+                <h3 class="skill-name">Golang</h3>
+                <div class="skill-rarity">Rarity: 40%</div>
+                <div class="skill-proficiency">Rank: S</div>
+                <div class="skill-projects">13 Projects</div>
+              </div>
+              <div class="skill-card">
+                <img src="asset/vlang.svg" alt="Vlang" class="skill-logo" />
+                <h3 class="skill-name">Vlang</h3>
+                <div class="skill-rarity">Rarity: 85%</div>
+                <div class="skill-proficiency">Rank: A</div>
+                <div class="skill-projects">3 Projects</div>
+              </div>
+              <div class="skill-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                  alt="Java"
+                  class="skill-logo"
+                />
+                <h3 class="skill-name">Java</h3>
+                <div class="skill-rarity">Rarity: 25%</div>
+                <div class="skill-proficiency">Rank: B</div>
+                <div class="skill-projects">10 Projects</div>
+              </div>
+              <div class="skill-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-plain.svg"
+                  alt="Lua"
+                  class="skill-logo"
+                />
+                <h3 class="skill-name">Lua</h3>
+                <div class="skill-rarity">Rarity: 60%</div>
+                <div class="skill-proficiency">Rank: S</div>
+                <div class="skill-projects">20 Projects</div>
+              </div>
+              <div class="skill-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
+                  alt="C#"
+                  class="skill-logo"
+                />
+                <h3 class="skill-name">C#</h3>
+                <div class="skill-rarity">Rarity: 30%</div>
+                <div class="skill-proficiency">Rank: B</div>
+                <div class="skill-projects">7 Projects</div>
+              </div>
+              <div class="skill-card">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+                  alt="SQL"
+                  class="skill-logo"
+                />
+                <h3 class="skill-name">SQLite</h3>
+                <div class="skill-rarity">Rarity: 20%</div>
+                <div class="skill-proficiency">Rank: B</div>
+                <div class="skill-projects">4 Projects</div>
+              </div>
+            </div>
+
+            <h3 class="skills-title" style="font-size: 1.8rem">Soft Skills</h3>
+            <div class="soft-skills">
+              <div class="soft-skill">Problem Solving</div>
+              <div class="soft-skill">Requirements Evaluation</div>
+              <div class="soft-skill">Client Communication</div>
+              <div class="soft-skill">Feature Scoping</div>
+              <div class="soft-skill">Technology Adoption</div>
+              <div class="soft-skill">Documentation Literacy</div>
+            </div>
+          </div>
+          <div class="scroll-indicator">⌄</div>
+        </div>
+      </section>
+
+      <!-- Inventory/Projects -->
+      <section id="inventory" class="card-section">
+        <div class="card-content">
+          <div class="inventory-container">
+            <h2 class="inventory-title">Inventory</h2>
+            <div class="projects-carousel">
+              <div class="project-card">
+                <h3 class="project-title">2D Roguelike</h3>
+                <h4 class="project-subtitle">Java</h4>
+                <div class="project-stars">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>☆</span>
+                  <span>☆</span>
+                </div>
+                <p class="project-description">
+                  Exploring OOP in a practical sense, not just theory bloat. A
+                  2D roguelike first written as text UI, then adapted cleanly
+                  with a Java Swing port for graphics, without touching the base
+                  logic.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Swing</span>
+                  <span class="tech-tag">OOP</span>
+                  <span class="tech-tag">Game Dev</span>
+                </div>
+                <a href="#" class="project-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="project-card">
+                <h3 class="project-title">8chigo V2</h3>
+                <h4 class="project-subtitle">Golang</h4>
+                <div class="project-stars">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>☆</span>
+                </div>
+                <p class="project-description">
+                  Creating a faithful Chip-8 emulator in Go, taking advantage of
+                  a reasonable build system and high-level constructs, without
+                  sacrificing speed or readability.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">Golang</span>
+                  <span class="tech-tag">Emulation</span>
+                  <span class="tech-tag">Low-level</span>
+                  <span class="tech-tag">Systems</span>
+                </div>
+                <a href="#" class="project-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+
+              <div class="project-card">
+                <h3 class="project-title">SucrOSe</h3>
+                <h4 class="project-subtitle">C, Assembly</h4>
+                <div class="project-stars">
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                  <span>★</span>
+                </div>
+                <p class="project-description">
+                  An experimental learning OS for the RISC-V 64 architecture.
+                  Work in progress, private repo until alpha build is complete.
+                  Focused on minimalism and educational value.
+                </p>
+                <div class="tech-tags">
+                  <span class="tech-tag">C</span>
+                  <span class="tech-tag">Assembly</span>
+                  <span class="tech-tag">OS Development</span>
+                  <span class="tech-tag">RISC-V</span>
+                </div>
+                <a href="#" class="project-link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    width="24"
+                    height="24"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-indicator">⌄</div>
+        </div>
+      </section>
+
+      <!-- Lore/About -->
+      <section id="lore" class="card-section">
+        <div class="card-content">
+          <div class="lore-container">
+            <h2 class="lore-title">Lore</h2>
+            <div class="lore-sections">
+              <div class="lore-section">
+                <h3 class="lore-section-title">Interests & Aspirations</h3>
+                <div class="lore-content">
+                  <p>
+                    Curious by default — I like digging deep into how systems
+                    really work. The tougher the problem, the more I’m in my
+                    element.
+                  </p>
+                  <p>
+                    I’ve worked across the stack, from OS internals and
+                    emulators to everyday tools. What I enjoy most is building
+                    clean, efficient solutions that don’t fall apart later.
+                  </p>
+                  <p>
+                    Looking ahead, I want to keep pushing in systems programming
+                    and take on roles where I can design solid, impactful
+                    software from the ground up.
+                  </p>
+                </div>
+              </div>
+
+              <div class="lore-section">
+                <h3 class="lore-section-title">Education</h3>
+                <div class="lore-content">
+                  <p>
+                    <strong>Colegio de la Purisima, Roxas</strong> - Bachelor of
+                    Information Technology
+                  </p>
+                  <p>Currently a 2nd Year Student, Cum Laude in First Year</p>
+                  <p>
+                    Focusing on operating systems, games, and systems
+                    architecture outside of academic responsibilities
+                  </p>
+                  <br />
+                  <p><strong>Lebanese University - Computer Science</strong></p>
+                  <p>
+                    Just did first year before travelling to the Philippines
+                  </p>
+                  <br />
+                  <p><strong>Cedars High School, Lebanon</strong></p>
+                  <p>Graduated somehow, on the Life Sciences track</p>
+                </div>
+              </div>
+
+              <div class="lore-section">
+                <h3 class="lore-section-title">Development Journey</h3>
+                <div class="lore-content">
+                  <p>
+                    I’ve always been curious about how systems really work. That
+                    curiosity keeps pushing me to learn more and take on tougher
+                    challenges.
+                  </p>
+
+                  <div class="timeline">
+                    <div class="timeline-node" data-tech="Batch">
+                      <div class="timeline-label">Batch Scripting</div>
+                    </div>
+                    <div class="timeline-node" data-tech="Web">
+                      <div class="timeline-label">Web Games</div>
+                    </div>
+                    <div class="timeline-node" data-tech="C/C++">
+                      <div class="timeline-label">C/C++</div>
+                    </div>
+                    <div class="timeline-node" data-tech="Lua">
+                      <div class="timeline-label">Lua</div>
+                    </div>
+                    <div class="timeline-node" data-tech="ASM">
+                      <div class="timeline-label">Assembly</div>
+                    </div>
+                    <div class="timeline-node" data-tech="Java">
+                      <div class="timeline-label">Java</div>
+                    </div>
+                    <div class="timeline-node" data-tech="C#">
+                      <div class="timeline-label">C#</div>
+                    </div>
+                    <div class="timeline-node" data-tech="Go">
+                      <div class="timeline-label">Go</div>
+                    </div>
+                    <div class="timeline-node active" data-tech="V">
+                      <div class="timeline-label">V</div>
+                    </div>
+                  </div>
+
+                  <p>
+                    Been at this for about five years now. Started with baby
+                    scripts, now I’m wrangling full-on systems. I mix just
+                    enough theory to sound smart, but it’s mostly trial, error,
+                    and a lot of late-night debugging.
+                  </p>
+                </div>
+              </div>
+
+              <div class="lore-section">
+                <h3 class="lore-section-title">Personal Approach</h3>
+                <div class="lore-content">
+                  <p>
+                    I break problems into parts, focus on what’s needed, and
+                    build solutions that work. Years of varied projects taught
+                    me to stay practical and think clearly.
+                  </p>
+                  <p>
+                    Reading docs and troubleshooting? Not a pain — it’s how I
+                    get to the root of things. I like understanding systems
+                    properly, then building with confidence.
+                  </p>
+                  <p>
+                    I’m good at turning ideas into actual, working code. Clear
+                    communication keeps things on track and makes sure the final
+                    product matches the plan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+          <div class="footer-content">
+            <div class="footer-links">
+              <a
+                href="mailto:vincent.samir.maalouf@gmail.com"
+                class="footer-link"
+                >Email</a
+              >
+              <a href="https://github.com/vsm0" class="footer-link">GitHub</a>
+            </div>
+            <div class="copyright">
+              &copy; 2025 Vincent S. Maalouf. All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+    <div id="contactModal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
